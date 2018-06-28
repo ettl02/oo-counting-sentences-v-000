@@ -19,7 +19,7 @@ end
   end
 
   def count_sentences
-    self.split(/[.!?]/)
+    self.split(/[.!?]/).length 
     binding.pry
   end
 end
